@@ -80,8 +80,8 @@ export default function Home(props) {
 <div className="container m-auto md:my-12 p-2">
 <div className="text-gray-600 body-font w-full">
 <div className="flex flex-wrap ">
-      <div className="lg:w-1/3 w-full p-2">
-        <div className="border border-gray-200 p-2 h-full rounded-2xl hover:bg-teal-400 ">
+      <div className="lg:w-1/3 w-full p-2 ">
+        <div className="border-2 border-teal-200 p-2 h-full rounded-2xl hover:bg-teal-400 ">
           <h2 className="text-2xl md:text-3xl text-gray-900 font-medium title-font mb-2 text-center italic ">Connect With Us</h2>
           {/* <div className='px-48 lg:visible invisible'><div className="h-1 w-20 bg-teal-600  rounded "></div></div> */}
           {/* <div className="flex mt-6 justify-center">
@@ -91,7 +91,7 @@ export default function Home(props) {
         </div>
       </div>
       <div className="lg:w-1/3 w-full p-2">
-        <div className="border border-gray-200 p-2 h-full rounded-2xl hover:bg-teal-400">
+        <div className="border-2 border-teal-200 p-2 h-full rounded-2xl hover:bg-teal-400">
           <h2 className="text-2xl md:text-3xl text-gray-900 font-medium title-font mb-2 text-center italic">Our Operations</h2>
           {/* <div className='px-52 lg:visible invisible'><div className="h-1 w-20 bg-teal-600 rounded "></div></div> */}
           {/* <div className="h-1 md:ml-20 w-28 bg-teal-600 rounded "></div> */}
@@ -99,7 +99,7 @@ export default function Home(props) {
         </div>
       </div>
       <div className="lg:w-1/3 w-full p-2">
-        <div className="border border-gray-200 p-2 h-full rounded-2xl hover:bg-teal-400">
+        <div className="border-2 border-teal-200 p-2 h-full rounded-2xl hover:bg-teal-400">
           <h2 className="text-2xl md:text-3xl text-gray-900 font-medium title-font mb-2 text-center italic">Donate for a good cause</h2>
           {/* <div className='px-52 lg:visible invisible'><div className="h-1 w-20 bg-teal-600 rounded "></div></div> */}
           {/* <div className="h-1 md:ml-3 w-28 bg-teal-600 rounded "></div> */}
@@ -154,14 +154,14 @@ export default function Home(props) {
   </div>
 <div className="flex flex-wrap mt-4 ">
       <div className="lg:w-1/3 w-full p-2 hover:text-white">
-        <div className="border border-gray-200 p-2 h-full rounded-2xl hover:bg-teal-400 shadow-inner">
+        <div className="border-2 border-teal-200 p-2 h-full rounded-2xl hover:bg-teal-400 shadow-inner">
           <h2 className="text-2xl md:text-3xl text-slate-600 font-medium title-font mb-2 text-center italic ">Dr. Rajeev Tripathi</h2>
           {/* <div className='px-48 lg:visible invisible'><div className="h-1 w-20 bg-teal-600  rounded "></div></div> */}
           <p className="leading-relaxed p-6 md:p-12 text-center hover:text-white text-lg">The purpose of the Anokhi Pehel is to be a bridge between the street and schools, by giving our children the tools and knowledge to go to school.</p>
         </div>
       </div>
       <div className="lg:w-1/3 w-full p-2 hover:text-white">
-        <div className="border border-gray-200 p-2 h-full rounded-2xl hover:bg-teal-400 shadow-inner">
+        <div className="border-2 border-teal-200 p-2 h-full rounded-2xl hover:bg-teal-400 shadow-inner">
           <h2 className="text-2xl md:text-3xl text-slate-600 font-medium title-font mb-2 text-center italic">Dr. Basant Kumar</h2>
           {/* <div className='px-48 lg:visible invisible'><div className="h-1 w-20 bg-teal-600  rounded "></div></div> */}
           {/* <div className="h-1 md:ml-20 w-28 bg-teal-600 rounded "></div> */}
@@ -169,7 +169,7 @@ export default function Home(props) {
         </div>
       </div>
       <div className="lg:w-1/3 w-full p-2 hover:text-white">
-        <div className="border border-gray-200 p-2 h-full rounded-2xl hover:bg-teal-400 shadow-inner">
+        <div className="border-2 border-teal-200 p-2 h-full rounded-2xl hover:bg-teal-400 shadow-inner">
           <h2 className="text-2xl md:text-3xl text-slate-600 font-medium title-font mb-2 text-center italic">Dr. Ranvijay</h2>
           {/* <div className='px-48 lg:visible invisible'><div className="h-1 w-20 bg-teal-600  rounded "></div></div> */}
           <p className="leading-relaxed p-6 md:p-12 text-center hover:text-white text-lg">Every child on the streets of our cities should have the opportunity to a better life.</p>

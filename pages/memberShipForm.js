@@ -183,7 +183,7 @@ const MemberShipForm = () => {
       </div>
 <div className="text-gray-600 body-font w-full">
 <div className=" w-full p-1  hover:text-white">
-        <div className="border border-gray-200 p-2 h-full rounded-2xl bg-stone-50 hover:bg-teal-400 shadow-inner ">
+        <div className="border-2 border-teal-200 p-2 h-full rounded-2xl bg-stone-50 hover:bg-teal-400 shadow-inner ">
           <h1 className="md:text-3xl text-2xl font-medium title-font text-gray-900  title-font mb-2 text-center italic ">Zero funds organization</h1>
           {/* <div className='px-48 lg:visible invisible'><div className="h-1 w-20 bg-teal-600  rounded "></div></div> */}
           {/* <div className="flex mt-6 justify-center">

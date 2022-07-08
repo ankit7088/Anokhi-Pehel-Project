@@ -25,7 +25,7 @@ const Antyodaya = ({events}) => {
 <div className="text-gray-600 body-font w-full">
 <div className="flex flex-wrap  ">
       <div className="lg:w-1/3 w-full p-2 hover:text-white">
-        <div className="border border-gray-200 p-2 h-full rounded-2xl hover:bg-teal-400 shadow-inner ">
+        <div className="border-2 border-teal-200 p-2 h-full rounded-2xl hover:bg-teal-400 shadow-inner ">
           <h2 className="text-2xl md:text-3xl text-gray-900  font-medium title-font mb-2 text-center italic ">We are a big family.</h2>
           {/* <div className='px-48 lg:visible invisible'><div className="h-1 w-20 bg-teal-600  rounded "></div></div> */}
           {/* <div className="flex mt-6 justify-center">
@@ -35,7 +35,7 @@ const Antyodaya = ({events}) => {
         </div>
       </div>
       <div className="lg:w-1/3 w-full p-2 hover:text-white">
-        <div className="border border-gray-200 p-2 h-full rounded-2xl hover:bg-teal-400 shadow-inner">
+        <div className="border-2 border-teal-200 p-2 h-full rounded-2xl hover:bg-teal-400 shadow-inner">
           <h2 className="text-2xl md:text-3xl text-gray-900  font-medium title-font mb-2 text-center italic">Volunteers</h2>
           {/* <div className='px-52 lg:visible invisible'><div className="h-1 w-20 bg-teal-600 rounded "></div></div> */}
           {/* <div className="h-1 md:ml-20 w-28 bg-teal-600 rounded "></div> */}
@@ -43,7 +43,7 @@ const Antyodaya = ({events}) => {
         </div>
       </div>
       <div className="lg:w-1/3 w-full p-2 hover:text-white">
-        <div className="border border-gray-200 p-2 h-full rounded-2xl hover:bg-teal-400 shadow-inner">
+        <div className="border-2 border-teal-200 p-2 h-full rounded-2xl hover:bg-teal-400 shadow-inner">
           <h2 className="text-2xl md:text-3xl text-gray-900  font-medium title-font mb-2 text-center italic px-4">Its all about your happiness and joy.</h2>
           {/* <div className='px-52 lg:visible invisible'><div className="h-1 w-20 bg-teal-600 rounded "></div></div> */}
           {/* <div className="h-1 md:ml-3 w-28 bg-teal-600 rounded "></div> */}

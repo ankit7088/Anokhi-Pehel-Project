@@ -3,7 +3,7 @@ import { FaCalendarAlt } from 'react-icons/fa';
 import Link from 'next/link';
 import { client } from '../../lib/sanityClient';
 import Masonry from "react-masonry-css";
-import { BsArrowLeft } from 'react-icons/Bs';
+import { BsArrowLeft } from 'react-icons/bs';
 
 
 const blogDetails = ({post}) => {

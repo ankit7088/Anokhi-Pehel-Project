@@ -1,7 +1,7 @@
 import React from 'react'
 import { client } from '../../lib/sanityClient'
 import Link from 'next/link'
-import { BsArrowRight } from 'react-icons/Bs';
+import { BsArrowRight } from 'react-icons/bs';
 
 const Blog = ({post}) => {
     // console.log(typeof(post));

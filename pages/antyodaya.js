@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import { BsArrowRight } from 'react-icons/Bs';
+import { BsArrowRight } from 'react-icons/bs';
 import { client } from '../lib/sanityClient';
-import { AiOutlineEye } from 'react-icons/Ai';
+import { AiOutlineEye } from 'react-icons/ai';
 import { FaRegComment } from 'react-icons/fa';
 
 const Antyodaya = ({events}) => {

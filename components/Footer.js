@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { FaLinkedinIn,FaFacebookF } from 'react-icons/fa';
-import { BsTwitter,BsInstagram } from 'react-icons/Bs';
+import { BsTwitter,BsInstagram } from 'react-icons/bs';
 
 
 const Footer = () => {

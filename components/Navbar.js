@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import onClickOutside from "react-onclickoutside";
+// import onClickOutside from "react-onclickoutside";
 import {React, useEffect, useState } from "react";
 import Link from "next/link";
 import { useSession, signOut } from "next-auth/react";
@@ -121,7 +121,7 @@ import { AiFillCaretDown } from "react-icons/ai";
           // console.log(userData);
         });
     } 
-}, [session]);
+}, [session,router]);
 
   const handleClick = () => {
     setActive(!active);
@@ -167,7 +167,7 @@ import { AiFillCaretDown } from "react-icons/ai";
       <nav className='shadow-lg sticky top-0 z-50 w-full flex items-center flex-wrap bg-white p-0'>
         <Link href='/'>
           <a className='inline-flex items-center p-0 xl:ml-2  '>
-            <Image src="/imagelogo.png" width={150} height={110}></Image>
+            <Image alt='logo' src="/imagelogo.png" width={150} height={110}></Image>
           </a>
         </Link>
         <button
@@ -332,10 +332,11 @@ import { AiFillCaretDown } from "react-icons/ai";
     </>
   );
 };
-const clickOutsideConfig = {
-  handleClickOutside: () => Navbar.handleClickOutside,
-};
+// const clickOutsideConfig = {
+//   handleClickOutside: () => Navbar.handleClickOutside,
+// };
 
-export default onClickOutside(Navbar, clickOutsideConfig);
+// export default onClickOutside(Navbar, clickOutsideConfig);
+export default Navbar
 
 

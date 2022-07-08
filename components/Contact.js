@@ -161,7 +161,7 @@ export default function Contact() {
     <section className="text-gray-600 body-font relative mx-6">
   <div className=" px-5 py-6 mt-8 md:mx-4 lg:mx-auto flex sm:flex-nowrap flex-wrap ">
     <div className=" md:w-3/5 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 lg:mr-20 p-10 flex items-end justify-start relative ">
-      <iframe width="100%" height="100%" className="absolute inset-0 contrast-125 grayscale-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3601.3299657967036!2d81.86060641433372!3d25.49403972585083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399acb7c105ade1f%3A0x4315585e623f5cb8!2sAnokhi%20Pehel!5e0!3m2!1sen!2sin!4v1579453709929!5m2!1sen!2sin" ></iframe>
+      <iframe width="100%" height="100%" className="absolute inset-0 contrast-125 grayscale-0" frameBorder="0" title="map" marginHeight="0" marginWidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3601.3299657967036!2d81.86060641433372!3d25.49403972585083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399acb7c105ade1f%3A0x4315585e623f5cb8!2sAnokhi%20Pehel!5e0!3m2!1sen!2sin!4v1579453709929!5m2!1sen!2sin" ></iframe>
       <div className="bg-white hover:bg-gray-50  relative flex flex-wrap py-6 rounded shadow-lg">
         <div className="lg:w-1/2 px-6">
           <h2 className="title-font text-base font-semibold text-gray-900 tracking-widest">ADDRESS</h2>
@@ -180,19 +180,19 @@ export default function Contact() {
       <p className="leading-relaxed mb-5 text-gray-600">We all need people who will give us feedback</p>
       <form onSubmit={submitHandler}>
       <div className="relative mb-4">
-        <label for="name" className="leading-7 text-sm text-gray-600 ">Name</label>
+        <label htmlFor="name" className="leading-7 text-sm text-gray-600 ">Name</label>
         <input ref={nameRef} type="text" id="name" name="name" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
       </div>
       <div className="relative mb-4">
-        <label for="email" className="leading-7 text-sm text-gray-600">Email</label>
+        <label htmlFor="email" className="leading-7 text-sm text-gray-600">Email</label>
         <input ref={emailRef} type="email" id="email" name="email" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
       </div>
       <div className="relative mb-4">
-        <label for="subject" className="leading-7 text-sm text-gray-600">Subject</label>
+        <label htmlFor="subject" className="leading-7 text-sm text-gray-600">Subject</label>
         <input ref={subjectRef} type="text" id="subject" name="subject" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
       </div>
       <div className="relative mb-4">
-        <label for="message" className="leading-7 text-sm text-gray-600">Message</label>
+        <label htmlFor="message" className="leading-7 text-sm text-gray-600">Message</label>
         <textarea ref={messageRef} id="message" name="message" className="w-full bg-white rounded border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
       </div>
       <button className="text-white bg-teal-600 border-0 py-2 px-6 focus:outline-none hover:bg-teal-700 rounded text-lg">Button</button>

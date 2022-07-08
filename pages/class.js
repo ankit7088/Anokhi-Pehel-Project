@@ -48,9 +48,9 @@ const Class = (props) => {
   itemclass="carousel-item-padding-40-px"
 >
 <div >
-  <Image src='/3.jpeg' layout="responsive"  width={1400} height={550} ></Image>
+  <Image alt='slidingImage' src='/3.jpeg' layout="responsive"  width={1400} height={550} ></Image>
   </div>
-  <div><Image src='/2.jpg' layout="responsive"  width={1400} height={550} ></Image></div>
+  <div><Image alt='slidingImage' src='/2.jpg' layout="responsive"  width={1400} height={550} ></Image></div>
 </Carousel>
 <div className='mx-16 mt-8'>
   <div className='mb-4 font-medium lg:text-xl text-lg '>

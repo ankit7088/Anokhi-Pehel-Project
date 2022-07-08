@@ -47,7 +47,7 @@ const Coordinators = ({team}) => {
                                     return <div key={item._id} className="p-2 lg:w-1/4">
                                         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                                             <div className='transition ease-in-out delay-150 cursor-pointer  hover:-translate-y-2 hover:scale-110 duration-500'>
-                                                <Image src={item.image.asset.url} className='object-fill aspect-auto' width={450} height={500}></Image>
+                                                <Image alt='humanImage' src={item.image.asset.url} className='object-fill aspect-auto' width={450} height={500}></Image>
                                             </div>
                                             <div className="px-6 pb-2 justify-center items-center text-center hover:bg-teal-50 ">
                                                
@@ -77,7 +77,7 @@ const Coordinators = ({team}) => {
                                     return <div key={item._id} className="p-2 lg:w-1/4">
                                         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                                             <div className='transition ease-in-out delay-150 cursor-pointer  hover:-translate-y-2 hover:scale-110 duration-500'>
-                                                <Image src={item.image.asset.url} className='object-fill aspect-auto' width={450} height={500}></Image>
+                                                <Image alt='humanImage'  src={item.image.asset.url} className='object-fill aspect-auto' width={450} height={500}></Image>
                                             </div>
                                             <div className="px-6 pb-2 justify-center items-center text-center hover:bg-teal-50">
                                                

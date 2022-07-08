@@ -16,7 +16,7 @@ const Faculty = ({mem}) => {
       <section className="text-gray-600 body-font justify-center items-center">
   <div className="mx-auto md:mx-12 flex px-0 py-12 mt-8 hover:shadow-inner shadow md:flex-row flex-col items-center rounded border border-stone-300">
       <div className=" mb-10 md:mb-0 w-1/2 md:w-2/6 md:self-start">
-      <Image src={item.image.asset.url} className='object-fill  rounded-lg ' width={1000} height={750}></Image>
+      <Image alt='humanImage'  src={item.image.asset.url} className='object-fill  rounded-lg ' width={1000} height={750}></Image>
       </div>
       <div className="lg:flex-grow w-auto md:w-4/6 lg:pl-8 md:pl-4 flex flex-col md:items-start md:text-left items-center text-center">
       <p className="mb-8 px-4 md:px-2 lg:px-0 leading-relaxed text-left text-lg font-medium lg:mr-8">{item.quote}</p>

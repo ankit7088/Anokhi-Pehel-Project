@@ -53,8 +53,8 @@ export default function Home(props) {
   dotListclass="custom-dot-list-style"
   itemclass="carousel-item-padding-40-px"
 >
-  <div><Image src='/3.jpeg' layout="responsive" width={1500} height={590} ></Image></div>
-  <div><Image src='/2.jpg' layout="responsive" width={1500} height={590} ></Image></div>
+  <div><Image alt='slidingImage' src='/3.jpeg' layout="responsive" width={1500} height={590} ></Image></div>
+  <div><Image alt='slidingImage' src='/2.jpg' layout="responsive" width={1500} height={590} ></Image></div>
   {/* <div><Image src='/' layout="responsive" width={1500} height={600} ></Image></div> */}
   {/* <div>Item 4</div> */}
 </Carousel>
@@ -65,7 +65,7 @@ export default function Home(props) {
     <iframe className='w-full h-64 lg:h-80 aspect-auto  lg:aspect-video px-8'
         src="https://www.youtube.com/embed/NxMhckSJEP4?rel=0"
         title="YouTube video"
-        allowfullscreen
+        allowFullScreen
     ></iframe>
     </div>
     <div className='w-full lg:w-1/2 pl-10 content-start pt-12 space-y-4'>
@@ -121,7 +121,7 @@ export default function Home(props) {
       <div className="w-full sm:p-4 mb-6">
         <h1 className="title-font font-medium mb-2 text-stone-200 text-4xl italic">Achievements</h1>
         <div className="h-1 w-24 bg-teal-600 rounded"></div>
-        <div className="leading-relaxed text-lg mt-8">Stories that we create, smiles that we get are some priceless moments that motivates team Anokhi Pehel work tirelessly and achieve more than just a milestone - it's the contribution for betterment of the notion.</div>
+        <div className="leading-relaxed text-lg mt-8">Stories that we create`&lsquo;` smiles that we get are some priceless moments that motivates team Anokhi Pehel work tirelessly and achieve more than just a milestone - it`&apos;`s the contribution for betterment of the notion`&rsquo;`</div>
       </div>
       
     </div>

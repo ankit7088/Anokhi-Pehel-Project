@@ -50,7 +50,7 @@ export default function Gallery({ pins }) {
     <iframe className='w-full aspect-video'
         src="https://www.youtube.com/embed/NxMhckSJEP4?rel=0"
         title="YouTube video"
-        allowfullscreen
+        allowFullScreen
     ></iframe>
     </div>
         <div className='border rounded px-4 pb-4'>
@@ -69,7 +69,7 @@ export default function Gallery({ pins }) {
     <iframe className='w-full aspect-video'
         src="https://www.youtube.com/embed/NxMhckSJEP4?rel=0"
         title="YouTube video"
-        allowfullscreen
+        allowFullScreen
     ></iframe>
     </div>
         <div className='border rounded px-4 pb-4'>

@@ -176,7 +176,7 @@ export default function Contact() {
       </div>
     </div>
     <div className=" md:w-2/5 bg-white flex flex-col  w-full  md:mt-0 ">
-      <h2 className="text-gray-900 text-2xl mb-1 font-medium title-font">FeedBack</h2>
+      <h2 className="text-gray-900 text-2xl mb-1 mt-6 md:mt-0 font-medium title-font">FeedBack</h2>
       <p className="leading-relaxed mb-5 text-gray-600">We all need people who will give us feedback</p>
       <form onSubmit={submitHandler}>
       <div className="relative mb-4">

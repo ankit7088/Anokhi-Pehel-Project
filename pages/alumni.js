@@ -33,7 +33,7 @@ const Team = ({alumnis}) => {
     // console.log(obj2020);
     return (
         <>
-            <div className='justify-center items-center text-center p-4 lg:text-4xl font-medium sm:text-3xl text-2xl italic'>ALUMNI</div>
+            <div className='justify-center items-center text-center pt-4 pb-2 md:p-4 lg:text-4xl font-medium sm:text-3xl text-2xl italic'>ALUMNI</div>
             <div className="flex mt-0 mb-3 justify-center">
         <div className="w-16 h-1 rounded-full bg-teal-500 inline-flex"></div>
       </div>

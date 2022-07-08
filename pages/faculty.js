@@ -8,7 +8,7 @@ const Faculty = ({mem}) => {
   return (
     <>
     <div className='justify-center items-center text-center pt-6 lg:text-4xl font-medium sm:text-3xl text-2xl italic'>FACULTY CORNER</div>
-    <div className="flex mt-3 mb-8 justify-center">
+    <div className="flex mt-2 mb-8 justify-center">
         <div className="w-16 h-1 rounded-full bg-teal-500 inline-flex"></div>
       </div>
     {mem.map((item)=>{

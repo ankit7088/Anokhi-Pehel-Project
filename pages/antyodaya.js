@@ -9,13 +9,13 @@ const Antyodaya = ({events}) => {
   // console.log(events);
   return (
     <>
-    <div className='justify-center items-center text-center p-4 lg:text-4xl font-medium sm:text-3xl text-2xl '>Antyodaya</div>
+    <div className='justify-center items-center text-center p-2 md:p-4 lg:text-4xl font-medium text-3xl '>Antyodaya</div>
     <div className="flex mt-0 mb-4 justify-center">
         <div className="w-16 h-1 rounded-full bg-teal-500 inline-flex"></div>
       </div>
     <div className='md:mx-20 lg:mx-44 '>
       <div>
-        <Image alt='slidingImage' src="/3.jpeg" className='object-fill w-full ' width={1200} height={550}></Image>
+        <img alt='slidingImage' src="/3.jpeg" className='h-60 md:h-[31rem] object-fill w-full ' width={1200} height={550}></img>
       </div>
       <div className='mt-2 p-2 text-center md:font-normal text-lg '>
         <p>Anokhi पहल is the non profit organisation run by the students of MNNIT Allahabad and is working to provide education to the less fortunate. Antyodaya-the annual fest of anokhi पहल. We aim to create a unique platform for students who have lot of potential, all they needof from different Government schools where activities or events are not conducted for the sake of students of prayagraj participate and gain a unique experience and exposure while having fun along the way. The various scientific, cultural and artistic competitions have been specifically designed to judge students based on their creative, analytical and innovative ability. Every year Antyodaya is conducted on eve on Children’s Day within the college campus. Antyodaya is conducted for an all-round learning experience filled with fun! Anokhi पहल has successfully conducted 3 editions so far and November, 2020 will witness fourth edition of Antyodaya.</p>
@@ -26,35 +26,35 @@ const Antyodaya = ({events}) => {
 <div className="flex flex-wrap  ">
       <div className="lg:w-1/3 w-full p-1 hover:text-white">
         <div className="border border-gray-200 p-2 h-full rounded-2xl hover:bg-teal-400 shadow-inner ">
-          <h2 className="text-3xl text-gray-900  font-medium title-font mb-2 text-center italic ">We are a big family.</h2>
+          <h2 className="text-2xl md:text-3xl text-gray-900  font-medium title-font mb-2 text-center italic ">We are a big family.</h2>
           {/* <div className='px-48 lg:visible invisible'><div className="h-1 w-20 bg-teal-600  rounded "></div></div> */}
           {/* <div className="flex mt-6 justify-center">
         <div className="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
       </div> */}
-          <p className="leading-relaxed p-12 text-center hover:text-white text-lg">500+ Students Participate every year.</p>
+          <p className="leading-relaxed p-6 md:p-12 text-center hover:text-white text-lg">500+ Students Participate every year.</p>
         </div>
       </div>
       <div className="lg:w-1/3 w-full p-1 hover:text-white">
         <div className="border border-gray-200 p-2 h-full rounded-2xl hover:bg-teal-400 shadow-inner">
-          <h2 className="text-3xl text-gray-900  font-medium title-font mb-2 text-center italic">Volunteers</h2>
+          <h2 className="text-2xl md:text-3xl text-gray-900  font-medium title-font mb-2 text-center italic">Volunteers</h2>
           {/* <div className='px-52 lg:visible invisible'><div className="h-1 w-20 bg-teal-600 rounded "></div></div> */}
           {/* <div className="h-1 md:ml-20 w-28 bg-teal-600 rounded "></div> */}
-          <p className="leading-relaxed p-12 text-center hover:text-white text-lg">We have a big family of coordinators, volunteers and faculties.With 80+ volunteers we always stands on people expectations.From managing finances,scheduling and public relation its never easy to go ahead without these amazing volunteers.</p>
+          <p className="leading-relaxed p-6 md:p-12 text-center hover:text-white text-lg">We have a big family of coordinators, volunteers and faculties.With 80+ volunteers we always stands on people expectations.From managing finances,scheduling and public relation its never easy to go ahead without these amazing volunteers.</p>
         </div>
       </div>
       <div className="lg:w-1/3 w-full p-1 hover:text-white">
         <div className="border border-gray-200 p-2 h-full rounded-2xl hover:bg-teal-400 shadow-inner">
-          <h2 className="text-3xl text-gray-900  font-medium title-font mb-2 text-center italic px-4">Its all about your happiness and joy.</h2>
+          <h2 className="text-2xl md:text-3xl text-gray-900  font-medium title-font mb-2 text-center italic px-4">Its all about your happiness and joy.</h2>
           {/* <div className='px-52 lg:visible invisible'><div className="h-1 w-20 bg-teal-600 rounded "></div></div> */}
           {/* <div className="h-1 md:ml-3 w-28 bg-teal-600 rounded "></div> */}
-          <p className="leading-relaxed p-12 text-center hover:text-white text-lg">12+ Events are organised in Antyodaya</p>
+          <p className="leading-relaxed p-6 md:p-12 text-center hover:text-white text-lg">12+ Events are organised in Antyodaya</p>
         </div>
       </div>
   </div>
  </div>
 </div>
 <div>
-<div className='justify-center items-center text-center p-4 italic font-medium lg:text-4xl sm:text-3xl text-2xl'>Events</div>
+<div className='justify-center items-center text-center mt-5 md:mt-0 p-2 md:p-4 italic lg:text-4xl font-medium text-3xl'>Events</div>
 <div className="flex mt-0 mb-2 justify-center">
         <div className="w-16 h-1 rounded-full bg-teal-500 inline-flex"></div>
       </div>

@@ -25,7 +25,7 @@ const Testimonial = (props) => {
   return (
     <>
     <div>
-    <div className='justify-center items-center text-center pt-6 lg:text-4xl font-medium sm:text-3xl text-2xl italic'>TESTIMONIALS</div>
+    <div className='justify-center items-center text-center pt-6 lg:text-4xl font-medium text-3xl italic'>TESTIMONIALS</div>
     <div className="flex mt-2 mb-2 justify-center">
         <div className="w-16 h-1 rounded-full bg-teal-500 inline-flex"></div>
       </div>

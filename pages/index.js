@@ -53,8 +53,8 @@ export default function Home(props) {
   dotListclass="custom-dot-list-style"
   itemclass="carousel-item-padding-40-px"
 >
-  <div><Image alt='slidingImage' src='/3.jpeg' layout="responsive" width={1500} height={590} ></Image></div>
-  <div><Image alt='slidingImage' src='/2.jpg' layout="responsive" width={1500} height={590} ></Image></div>
+  <div><img alt='slidingImage' className='h-60 md:h-[37rem] w-full' src='/3.jpeg' layout="responsive" ></img></div>
+  <div><img alt='slidingImage' className='h-60 md:h-[37rem] w-full' src='/2.jpg' layout="responsive" ></img></div>
   {/* <div><Image src='/' layout="responsive" width={1500} height={600} ></Image></div> */}
   {/* <div>Item 4</div> */}
 </Carousel>
@@ -68,8 +68,8 @@ export default function Home(props) {
         allowFullScreen
     ></iframe>
     </div>
-    <div className='w-full lg:w-1/2 pl-10 content-start pt-12 space-y-4'>
-        <h2 className="pb-1 italic text-5xl font-bold" >Anokhi Pehel</h2>
+    <div className='w-full lg:w-1/2 pl-4 md:pl-10 content-start pt-12 space-y-4'>
+        <h2 className="pb-1 italic text-4xl md:text-5xl font-bold" >Anokhi Pehel</h2>
         <div className="h-1 w-28 bg-teal-600 rounded"></div>
         <p className=' xl:pb-20 text-left text-lg tracking-normal leading-relaxed'>Anokhi Pehel is an initiative taken by the students of MNNIT to help the children of the economically weaker sections of the society by providing them an education in the best possible way. Under this initiative, we teach students from preparatory classes to 12th level teaching them various subjects.Not only do we develop academic skills of the students but also other extra curricular activities such as painting, dancing, sketching, etc. Started with a few teachers and just 20 students, today we have a team of about 60 teachers shaping the life of more than 250 students. Our students have shown great performance in various fields.</p>
 
@@ -82,28 +82,28 @@ export default function Home(props) {
 <div className="flex flex-wrap ">
       <div className="lg:w-1/3 w-full p-1">
         <div className="border border-gray-200 p-2 h-full rounded-2xl hover:bg-teal-400 ">
-          <h2 className="text-3xl text-gray-900 font-medium title-font mb-2 text-center italic ">Connect With Us</h2>
+          <h2 className="text-2xl md:text-3xl text-gray-900 font-medium title-font mb-2 text-center italic ">Connect With Us</h2>
           {/* <div className='px-48 lg:visible invisible'><div className="h-1 w-20 bg-teal-600  rounded "></div></div> */}
           {/* <div className="flex mt-6 justify-center">
         <div className="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
       </div> */}
-          <p className="leading-relaxed p-12 text-center hover:text-white text-lg">We aspire to establish anokhi pehel in each institute. Join us in giving this initiative an international level.</p>
+          <p className="leading-relaxed p-6 md:p-12 text-center hover:text-white text-lg">We aspire to establish anokhi pehel in each institute. Join us in giving this initiative an international level.</p>
         </div>
       </div>
       <div className="lg:w-1/3 w-full p-1">
         <div className="border border-gray-200 p-2 h-full rounded-2xl hover:bg-teal-400">
-          <h2 className="text-3xl text-gray-900 font-medium title-font mb-2 text-center italic">Our Operations</h2>
+          <h2 className="text-2xl md:text-3xl text-gray-900 font-medium title-font mb-2 text-center italic">Our Operations</h2>
           {/* <div className='px-52 lg:visible invisible'><div className="h-1 w-20 bg-teal-600 rounded "></div></div> */}
           {/* <div className="h-1 md:ml-20 w-28 bg-teal-600 rounded "></div> */}
-          <p className="leading-relaxed p-12 text-center hover:text-white text-lg">We help the children of the economically weaker section of our society by providing them an education.we also do lots of extracurricular activities to improve their social skills and personality development.we also celebrate lots of festivals with them.</p>
+          <p className="leading-relaxed p-6 md:p-12 text-center hover:text-white text-lg">We help the children of the economically weaker section of our society by providing them an education.we also do lots of extracurricular activities to improve their social skills and personality development.we also celebrate lots of festivals with them.</p>
         </div>
       </div>
       <div className="lg:w-1/3 w-full p-1">
         <div className="border border-gray-200 p-2 h-full rounded-2xl hover:bg-teal-400">
-          <h2 className="text-3xl text-gray-900 font-medium title-font mb-2 text-center italic">Donate for a good cause</h2>
+          <h2 className="text-2xl md:text-3xl text-gray-900 font-medium title-font mb-2 text-center italic">Donate for a good cause</h2>
           {/* <div className='px-52 lg:visible invisible'><div className="h-1 w-20 bg-teal-600 rounded "></div></div> */}
           {/* <div className="h-1 md:ml-3 w-28 bg-teal-600 rounded "></div> */}
-          <p className="leading-relaxed p-12 text-center hover:text-white text-lg">Your small donation makes a lot of difference for us</p>
+          <p className="leading-relaxed p-6 md:p-12 text-center hover:text-white text-lg">Your small donation makes a lot of difference for us</p>
         </div>
       </div>
   </div>
@@ -119,7 +119,7 @@ export default function Home(props) {
   <div className="container px-0 py-14 mx-auto flex flex-wrap">
     <div className="flex flex-wrap mt-auto mb-auto lg:w-1/2 w-full content-start p-4">
       <div className="w-full sm:p-4 mb-6">
-        <h1 className="title-font font-medium mb-2 text-stone-200 text-4xl italic">Achievements</h1>
+        <h1 className="title-font font-medium mb-2 text-stone-200 text-3xl md:text-4xl italic">Achievements</h1>
         <div className="h-1 w-24 bg-teal-600 rounded"></div>
         <div className="leading-relaxed text-lg mt-8">Stories that we create`&lsquo;` smiles that we get are some priceless moments that motivates team Anokhi Pehel work tirelessly and achieve more than just a milestone - it`&apos;`s the contribution for betterment of the notion`&rsquo;`</div>
       </div>
@@ -144,35 +144,35 @@ export default function Home(props) {
     </div> */}
   </div>
 </div>
-<div className="container m-auto md:mt-12 p-4 ">
+<div className="container m-auto mt-6 md:mt-12 p-4 ">
 <div className="text-gray-600 body-font w-full ">
 <div className="lg:ml-4">
-  <h2 className='title-font text-center text-4xl italic text-gray-900  font-medium'>Endorsements</h2>
-  <div className="flex mt-4 mb-8 justify-center">
+  <h2 className='title-font text-center text-3xl md:text-4xl italic text-gray-900  font-medium'>Endorsements</h2>
+  <div className="flex mt-2 md:mt-4 mb-8 justify-center">
         <div className="w-16 h-1 rounded-full bg-teal-500 inline-flex"></div>
       </div>
   </div>
 <div className="flex flex-wrap mt-4 ">
       <div className="lg:w-1/3 w-full p-2 hover:text-white">
         <div className="border border-gray-200 p-2 h-full rounded-2xl hover:bg-teal-400 shadow-inner">
-          <h2 className="text-3xl text-slate-600 font-medium title-font mb-2 text-center italic ">Dr. Rajeev Tripathi</h2>
+          <h2 className="text-2xl md:text-3xl text-slate-600 font-medium title-font mb-2 text-center italic ">Dr. Rajeev Tripathi</h2>
           {/* <div className='px-48 lg:visible invisible'><div className="h-1 w-20 bg-teal-600  rounded "></div></div> */}
-          <p className="leading-relaxed p-12 text-center hover:text-white text-lg">The purpose of the Anokhi Pehel is to be a bridge between the street and schools, by giving our children the tools and knowledge to go to school.</p>
+          <p className="leading-relaxed p-6 md:p-12 text-center hover:text-white text-lg">The purpose of the Anokhi Pehel is to be a bridge between the street and schools, by giving our children the tools and knowledge to go to school.</p>
         </div>
       </div>
       <div className="lg:w-1/3 w-full p-2 hover:text-white">
         <div className="border border-gray-200 p-2 h-full rounded-2xl hover:bg-teal-400 shadow-inner">
-          <h2 className="text-3xl text-slate-600 font-medium title-font mb-2 text-center italic">Dr. Basant Kumar</h2>
+          <h2 className="text-2xl md:text-3xl text-slate-600 font-medium title-font mb-2 text-center italic">Dr. Basant Kumar</h2>
           {/* <div className='px-48 lg:visible invisible'><div className="h-1 w-20 bg-teal-600  rounded "></div></div> */}
           {/* <div className="h-1 md:ml-20 w-28 bg-teal-600 rounded "></div> */}
-          <p className="leading-relaxed p-12 text-center hover:text-white text-lg">Creating access to education is the purest form of nation building.</p>
+          <p className="leading-relaxed p-6 md:p-12 text-center hover:text-white text-lg">Creating access to education is the purest form of nation building.</p>
         </div>
       </div>
       <div className="lg:w-1/3 w-full p-2 hover:text-white">
         <div className="border border-gray-200 p-2 h-full rounded-2xl hover:bg-teal-400 shadow-inner">
-          <h2 className="text-3xl text-slate-600 font-medium title-font mb-2 text-center italic">Dr. Ranvijay</h2>
+          <h2 className="text-2xl md:text-3xl text-slate-600 font-medium title-font mb-2 text-center italic">Dr. Ranvijay</h2>
           {/* <div className='px-48 lg:visible invisible'><div className="h-1 w-20 bg-teal-600  rounded "></div></div> */}
-          <p className="leading-relaxed p-12 text-center hover:text-white text-lg">Every child on the streets of our cities should have the opportunity to a better life.</p>
+          <p className="leading-relaxed p-6 md:p-12 text-center hover:text-white text-lg">Every child on the streets of our cities should have the opportunity to a better life.</p>
         </div>
       </div>
   </div>
@@ -182,7 +182,7 @@ export default function Home(props) {
 <div className=' lg:px-5 mt-16'>
 <div className="text-gray-600 body-font w-full ">
   <div className="lg:ml-4">
-  <h2 className='title-font text-center text-4xl italic text-gray-900  font-medium'>Testimonials</h2>
+  <h2 className='title-font text-center text-3xl md:text-4xl italic text-gray-900  font-medium'>Testimonials</h2>
   <div className="flex mt-4 mb-8 justify-center">
         <div className="w-16 h-1 rounded-full bg-teal-500 inline-flex"></div>
       </div>
@@ -265,7 +265,7 @@ return <div key={item._id} className="p-4 mb-6">
 <Link href="/testimonial"><a className="mt-3 cursor-pointer text-teal-500 inline-flex items-center text-xl lg:text-2xl">Click for More</a></Link>
 </div>
     </div>
-    <div className='justify-center items-center text-center p-2 mt-20 lg:text-4xl font-medium sm:text-3xl text-2xl italic'>Contact Us</div>
+    <div className='justify-center items-center text-center p-2 mt-20 text-3xl md:text-4xl font-medium sm:text-3xl  italic'>Contact Us</div>
             <div className="flex mt-0 mb-3 justify-center">
                 <div className="w-16 h-1 rounded-full bg-teal-500 inline-flex"></div>
             </div>

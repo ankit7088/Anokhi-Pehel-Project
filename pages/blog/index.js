@@ -7,13 +7,13 @@ const Blog = ({post}) => {
     // console.log(typeof(post));
     return (
         <>
-        <div className='justify-center items-center text-center p-4 lg:text-4xl font-medium sm:text-3xl text-2xl '>Blogs</div>
+        <div className='justify-center items-center text-center p-2 md:p-4 lg:text-4xl font-medium text-3xl '>Blogs</div>
     <div className="flex mt-0 mb-1 justify-center">
         <div className="w-16 h-1 rounded-full bg-teal-500 inline-flex"></div>
       </div>
          <div>
          <section className="text-gray-600 body-font">
-                <div className=" px-5 md:px-6 lg:px-12 py-12 mx-auto">
+                <div className=" px-5 md:px-6 lg:px-12 py-6 md:py-12 mx-auto">
                     <div className="flex flex-wrap -m-4 justify-center">
                         {post.map((item)=>{
                             return <div key={item._id} className=" md:p-2 p-4 md:w-1/3">

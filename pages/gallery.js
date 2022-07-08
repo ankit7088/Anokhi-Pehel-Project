@@ -33,7 +33,7 @@ export default function Gallery({ pins }) {
             Share Images and connect with people
           </div>
       </div> */}
-      <div className='justify-center items-center text-center p-1 lg:p-4 text-3xl lg:text-5xl font-medium '>Videos</div>
+      <div className='justify-center items-center text-center p-1 mt-2 lg:p-4 lg:text-4xl font-medium text-3xl '>Videos</div>
       <div className="flex justify-center">
         <div className="w-16 h-1 rounded-full bg-teal-500 inline-flex"></div>
       </div>
@@ -85,7 +85,7 @@ export default function Gallery({ pins }) {
 </section>
     </div>
 
-    <div className='justify-center items-center text-center p-1 mt-4 lg:p-4 text-3xl lg:text-5xl font-medium '>Gallery</div>
+    <div className='justify-center items-center text-center p-1 mt-4 lg:p-4 lg:text-4xl font-medium text-3xl '>Gallery</div>
     <div className="flex mt-1 mb-4 justify-center">
         <div className="w-16 h-1 rounded-full bg-teal-500 inline-flex"></div>
       </div>

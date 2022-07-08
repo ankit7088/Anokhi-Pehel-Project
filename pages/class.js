@@ -24,7 +24,7 @@ const Class = (props) => {
   return (
     <>
     <div className='lg:mx-28'>
-    <div className='justify-center items-center text-center py-3  italic lg:text-4xl font-medium sm:text-3xl text-2xl'>Evening Class</div>
+    <div className='justify-center items-center text-center pt-3 pb-2  italic lg:text-4xl font-medium sm:text-3xl text-2xl'>Evening Class</div>
     <div className="flex mt-0 mb-5 justify-center">
         <div className="w-16 h-1 rounded-full bg-teal-500 inline-flex"></div>
       </div>
@@ -48,11 +48,11 @@ const Class = (props) => {
   itemclass="carousel-item-padding-40-px"
 >
 <div >
-  <Image alt='slidingImage' src='/3.jpeg' layout="responsive"  width={1400} height={550} ></Image>
+  <img className='h-60 md:h-[37rem] w-full' alt='slidingImage' src='/3.jpeg' layout="responsive"   ></img>
   </div>
-  <div><Image alt='slidingImage' src='/2.jpg' layout="responsive"  width={1400} height={550} ></Image></div>
+  <div><img className='h-60 md:h-[37rem] w-full' alt='slidingImage' src='/2.jpg' layout="responsive"  ></img></div>
 </Carousel>
-<div className='mx-16 mt-8'>
+<div className='mx-4 md:mx-16 mt-8'>
   <div className='mb-4 font-medium lg:text-xl text-lg '>
   <h1>Anokhi Pehel is committed to providing basic education to such underprivileged kids, to empower their families and help them evolve as good citizens. It also helps provide sponsorship to children who are unable to pursue education due to lack of funds.</h1>
   </div>

@@ -5,7 +5,7 @@ import { BsArrowRight } from 'react-icons/bs';
 const Notice = ({info}) => {
   return (
     <>
-    <div className='justify-center items-center text-center p-4 lg:text-4xl font-medium sm:text-3xl text-2xl italic'>Notice Board</div>
+    <div className='justify-center items-center text-center p-2 md:p-4 lg:text-4xl font-medium text-3xl italic'>Notice Board</div>
             <div className="flex mt-0 mb-8 justify-center">
                 <div className="w-16 h-1 rounded-full bg-teal-500 inline-flex"></div>
     </div>

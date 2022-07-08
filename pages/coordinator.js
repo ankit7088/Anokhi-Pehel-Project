@@ -28,7 +28,7 @@ const Coordinators = ({team}) => {
     // console.log(obj2023);
     return (
         <>
-            <div className='justify-center items-center text-center p-4 lg:text-4xl font-medium sm:text-3xl text-2xl italic'>COORDINATORS</div>
+            <div className='justify-center items-center text-center pt-4 pb-2 md:p-4 lg:text-4xl font-medium sm:text-3xl text-2xl italic'>COORDINATORS</div>
             <div className="flex mt-0 mb-3 justify-center">
                 <div className="w-16 h-1 rounded-full bg-teal-500 inline-flex"></div>
             </div>
@@ -37,7 +37,7 @@ const Coordinators = ({team}) => {
             <TeamCom Id={2022} obj={obj2022}/> */}
             <div onClick={()=>handleSetIndex(2023)} className='container justify-center mx-auto'>
                 <div className='justify-start px-5 pt-6 lg:px-28 '>
-                    <div  className='hover:divide-x cursor-pointer justify-center items-center text-start py-4 px-6 rounded-lg text-3xl font-medium italic border bg-slate-900 text-stone-100'>{Index !== 2023 ?(<FaArrowCircleDown className='animate-bounce inline-block text-4xl'/>):(<FaArrowCircleUp className='inline-block text-4xl'/>)} <span className='inline-block px-4'>Core Coordinators</span></div>
+                    <div  className='hover:divide-x cursor-pointer justify-center items-center text-start py-4 px-6 rounded-lg text-2xl md:text-3xl font-medium italic border bg-slate-900 text-stone-100'>{Index !== 2023 ?(<FaArrowCircleDown className='animate-bounce inline-block text-3xl md:text-4xl'/>):(<FaArrowCircleUp className='inline-block text-3xl md:text-4xl'/>)} <span className='inline-block px-3 md:px-4'>Core Coordinators</span></div>
                 </div>
                 <div className='scroll-smooth'>
                     <section className="text-gray-600 body-font scroll-smooth">
@@ -67,7 +67,7 @@ const Coordinators = ({team}) => {
             </div>
             <div onClick={()=>handleSetIndex(2024)} className='container justify-center mx-auto'>
                 <div className='justify-start px-5 pt-6 lg:px-28 '>
-                    <div  className='hover:divide-x cursor-pointer justify-center items-center text-start py-4 px-6 rounded-lg text-3xl font-medium italic border bg-slate-900 text-stone-100'>{Index !== 2024 ?(<FaArrowCircleDown className='animate-bounce inline-block text-4xl'/>):(<FaArrowCircleUp className='inline-block text-4xl'/>)} <span className='inline-block px-4'>Senior Coordinators</span></div>
+                    <div  className='hover:divide-x cursor-pointer justify-center items-center text-start py-4 px-6 rounded-lg text-2xl md:text-3xl font-medium italic border bg-slate-900 text-stone-100'>{Index !== 2024 ?(<FaArrowCircleDown className='animate-bounce inline-block text-3xl md:text-4xl'/>):(<FaArrowCircleUp className='inline-block text-3xl md:text-4xl'/>)} <span className='inline-block px-3 md:px-4'>Senior Coordinators</span></div>
                 </div>
                 <div className='scroll-smooth'>
                     <section className="text-gray-600 body-font scroll-smooth">

@@ -164,21 +164,21 @@ const MemberShipForm = () => {
     
     <div>
     <section className="text-gray-600 body-font">
-  <div className="container mx-auto flex px-5 pb-12 pt-0 items-center justify-center flex-col">
-    <img className=" md:w-4/6 lg:w-5/6 w-5/6  md:mb-2 lg:mb-6 object-cover object-center rounded" alt="hero" src="/connect.png"/>
+  <div className="container mx-auto flex px-2 md:px-5 pb-4 md:pb-12 pt-0 items-center justify-center flex-col">
+    <img className=" w-96 h-44 md:w-4/6 lg:w-5/6 md:h-auto md:mb-2 lg:mb-6 object-fill object-center rounded" alt="hero" src="/connect.png"/>
     {/* <div className='mx-8 md:mx-2 lg:mx-0'>
     <Image src="/connect.png" className='lg:w-4/6  md:w-3/6 w-5/6 mb-10 object-fill object-center rounded' width={1100} height={250}></Image>
     </div> */}
-    <div className="text-center px-8 lg:w-2/3 mt-4 w-full">
-      <h1 className="title-font sm:text-xl text-lg lg:text-2xl mb-4 lg:font-medium text-gray-900">Connect with us to help the society and make this world a better place.Fill the membership form and get a Membership ID.</h1>
+    <div className="text-center px-3 md:px-8 lg:w-2/3 mt-4 w-full">
+      <h1 className="title-font sm:text-xl text-base lg:text-2xl mb-4 lg:font-medium text-gray-900">Connect with us to help the society and make this world a better place.Fill the membership form and get a Membership ID.</h1>
       
     </div>
   </div>
 </section>
     </div>
     <div className="container m-auto md:my-12 p-2 lg:px-40">
-    <div className='justify-center items-center text-center p-3  lg:text-4xl font-medium sm:text-3xl text-2xl'>Our Promise</div>
-    <div className="flex mb-12 px-3 justify-center">
+    <div className='justify-center items-center text-center md:p-4 p-2  lg:text-4xl font-medium text-3xl'>Our Promise</div>
+    <div className="flex mb-8 md:mb-12 px-3 justify-center">
         <div className="w-16 h-1 rounded-full bg-teal-500 inline-flex"></div>
       </div>
 <div className="text-gray-600 body-font w-full">
@@ -189,16 +189,16 @@ const MemberShipForm = () => {
           {/* <div className="flex mt-6 justify-center">
         <div className="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
       </div> */}
-          <p className="leading-relaxed p-4 md:p-8 lg:p-12 font-base md:font-medium text-center hover:text-stone-100 sm:text-xl text-lg">Anokhi Pehel is a decentralized, zero funds platform with no employees, office space, and insurance.</p>
+          <p className="leading-relaxed p-4 md:p-8 lg:p-12 font-base md:font-medium text-center hover:text-stone-100 sm:text-xl text-base">Anokhi Pehel is a decentralized, zero funds platform with no employees, office space, and insurance.</p>
         </div>
       </div>
  </div>
 </div>
     <div>
     <section className="text-gray-600 body-font relative">
-  <div className="container px-5 py-24 mx-auto">
+  <div className="container px-5 py-12 md:py-24 mx-auto">
     <div className="flex flex-col text-center w-full mb-12">
-      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Membership Form</h1>
+      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 md:mb-4 text-gray-900">Membership Form</h1>
       <div className="flex mt-0 mb-2 justify-center">
         <div className="w-16 h-1 rounded-full bg-teal-500 inline-flex"></div>
       </div>

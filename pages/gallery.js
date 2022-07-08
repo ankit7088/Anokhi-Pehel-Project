@@ -1,4 +1,4 @@
-import { BsArrowRight } from 'react-icons/Bs';
+import { BsArrowRight } from 'react-icons/bs';
 // import { cdnClient } from "../lib/sanityClient";
 // import { feedQuery } from "../lib/Data";
 import Feed from "../components/Feed";

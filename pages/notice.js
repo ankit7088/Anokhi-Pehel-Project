@@ -1,6 +1,6 @@
 import React from 'react'
 import { client } from '../lib/sanityClient'
-import { BsArrowRight } from 'react-icons/Bs';
+import { BsArrowRight } from 'react-icons/bs';
 
 const Notice = ({info}) => {
   return (

@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import { client } from '../lib/sanityClient'
 import Link from 'next/link'
-import { BsArrowRight } from 'react-icons/Bs';
+import { BsArrowRight } from 'react-icons/bs';
 
 const Faculty = ({mem}) => {
   return (

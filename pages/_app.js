@@ -1,7 +1,19 @@
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 import '../styles/globals.css'
+import { SessionProvider } from "next-auth/react"
+import NextNProgress from "nextjs-progressbar";
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+export default function App({
+  Component,
+  pageProps: { session, ...pageProps },
+}) {
+  return (
+    <SessionProvider session={session}>
+    <Navbar/>
+    <NextNProgress/>
+    <Component {...pageProps} />
+    <Footer/>
+    </SessionProvider>
+  )
 }
-
-export default MyApp

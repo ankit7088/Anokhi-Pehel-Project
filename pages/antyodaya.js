@@ -24,7 +24,7 @@ const Antyodaya = ({events}) => {
     <div className="container m-auto md:my-28 p-2 lg:px-16">
 <div className="text-gray-600 body-font w-full">
 <div className="flex flex-wrap  ">
-      <div className="lg:w-1/3 w-full p-1 hover:text-white">
+      <div className="lg:w-1/3 w-full p-2 hover:text-white">
         <div className="border border-gray-200 p-2 h-full rounded-2xl hover:bg-teal-400 shadow-inner ">
           <h2 className="text-2xl md:text-3xl text-gray-900  font-medium title-font mb-2 text-center italic ">We are a big family.</h2>
           {/* <div className='px-48 lg:visible invisible'><div className="h-1 w-20 bg-teal-600  rounded "></div></div> */}
@@ -34,7 +34,7 @@ const Antyodaya = ({events}) => {
           <p className="leading-relaxed p-6 md:p-12 text-center hover:text-white text-lg">500+ Students Participate every year.</p>
         </div>
       </div>
-      <div className="lg:w-1/3 w-full p-1 hover:text-white">
+      <div className="lg:w-1/3 w-full p-2 hover:text-white">
         <div className="border border-gray-200 p-2 h-full rounded-2xl hover:bg-teal-400 shadow-inner">
           <h2 className="text-2xl md:text-3xl text-gray-900  font-medium title-font mb-2 text-center italic">Volunteers</h2>
           {/* <div className='px-52 lg:visible invisible'><div className="h-1 w-20 bg-teal-600 rounded "></div></div> */}
@@ -42,7 +42,7 @@ const Antyodaya = ({events}) => {
           <p className="leading-relaxed p-6 md:p-12 text-center hover:text-white text-lg">We have a big family of coordinators, volunteers and faculties.With 80+ volunteers we always stands on people expectations.From managing finances,scheduling and public relation its never easy to go ahead without these amazing volunteers.</p>
         </div>
       </div>
-      <div className="lg:w-1/3 w-full p-1 hover:text-white">
+      <div className="lg:w-1/3 w-full p-2 hover:text-white">
         <div className="border border-gray-200 p-2 h-full rounded-2xl hover:bg-teal-400 shadow-inner">
           <h2 className="text-2xl md:text-3xl text-gray-900  font-medium title-font mb-2 text-center italic px-4">Its all about your happiness and joy.</h2>
           {/* <div className='px-52 lg:visible invisible'><div className="h-1 w-20 bg-teal-600 rounded "></div></div> */}

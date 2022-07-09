@@ -80,7 +80,7 @@ export default function Home(props) {
 <div className="container m-auto md:my-12 p-2">
 <div className="text-gray-600 body-font w-full">
 <div className="flex flex-wrap ">
-      <div className="lg:w-1/3 w-full p-2 ">
+      <div className="lg:w-1/3 w-full p-2 hover:text-white">
         <div className="border-2 border-teal-200 p-2 h-full rounded-2xl hover:bg-teal-400 ">
           <h2 className="text-2xl md:text-3xl text-gray-900 font-medium title-font mb-2 text-center italic ">Connect With Us</h2>
           {/* <div className='px-48 lg:visible invisible'><div className="h-1 w-20 bg-teal-600  rounded "></div></div> */}
@@ -90,7 +90,7 @@ export default function Home(props) {
           <p className="leading-relaxed p-6 md:p-12 text-center hover:text-white text-lg">We aspire to establish anokhi pehel in each institute. Join us in giving this initiative an international level.</p>
         </div>
       </div>
-      <div className="lg:w-1/3 w-full p-2">
+      <div className="lg:w-1/3 w-full p-2 hover:text-white">
         <div className="border-2 border-teal-200 p-2 h-full rounded-2xl hover:bg-teal-400">
           <h2 className="text-2xl md:text-3xl text-gray-900 font-medium title-font mb-2 text-center italic">Our Operations</h2>
           {/* <div className='px-52 lg:visible invisible'><div className="h-1 w-20 bg-teal-600 rounded "></div></div> */}
@@ -98,7 +98,7 @@ export default function Home(props) {
           <p className="leading-relaxed p-6 md:p-12 text-center hover:text-white text-lg">We help the children of the economically weaker section of our society by providing them an education.we also do lots of extracurricular activities to improve their social skills and personality development.we also celebrate lots of festivals with them.</p>
         </div>
       </div>
-      <div className="lg:w-1/3 w-full p-2">
+      <div className="lg:w-1/3 w-full p-2 hover:text-white">
         <div className="border-2 border-teal-200 p-2 h-full rounded-2xl hover:bg-teal-400">
           <h2 className="text-2xl md:text-3xl text-gray-900 font-medium title-font mb-2 text-center italic">Donate for a good cause</h2>
           {/* <div className='px-52 lg:visible invisible'><div className="h-1 w-20 bg-teal-600 rounded "></div></div> */}

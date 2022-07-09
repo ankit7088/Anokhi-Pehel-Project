@@ -169,9 +169,9 @@ export default function Contact() {
         </div>
         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
           <h2 className="title-font font-semibold text-gray-900 tracking-widest text-base">EMAIL</h2>
-          <a className="text-teal-600 leading-relaxed">example@email.com</a>
+          <a className="text-teal-600 leading-relaxed">anokhipehel@mnnit.ac.in</a>
           <h2 className="title-font font-semibold text-gray-900 tracking-widest text-base mt-4">PHONE</h2>
-          <p className="leading-relaxed">123-456-7890</p>
+          <p className="leading-relaxed">9580259378</p>
         </div>
       </div>
     </div>

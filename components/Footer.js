@@ -52,16 +52,16 @@ const Footer = () => {
         <div className="h-1 w-20 bg-teal-600 rounded lg:visible invisible"></div>
         <nav className="list-none mb-10 mt-5">
            <li className="text-gray-600 hover:text-gray-800">
-            <Link href='#'><a className="text-teal-600 inline-block">
+            <Link href='https://www.facebook.com/anokhipehel'><a className="text-teal-600 inline-block">
         <FaFacebookF className='text-xl md:text-2xl'/>
         </a></Link>
         <Link href='#'><a className="ml-3 text-teal-600 inline-block">
           <BsTwitter className='text-xl md:text-2xl'/>
         </a></Link>
-        <Link href='#'><a className="ml-3 text-teal-600 inline-block">
+        <Link href='https://www.instagram.com/anokhipehel/'><a className="ml-3 text-teal-600 inline-block">
           <BsInstagram className='text-xl md:text-2xl'/>
         </a></Link>
-        <Link href='#'><a className="ml-3 text-teal-600 inline-block">
+        <Link href='https://www.linkedin.com/company/anokhi-pehel/mycompany/'><a className="ml-3 text-teal-600 inline-block">
           <FaLinkedinIn className='text-xl md:text-2xl'/>
         </a></Link>
         </li>
@@ -77,18 +77,20 @@ const Footer = () => {
         <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@MNNIT</a>
       </p>
       <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-        <a className="text-teal-600">
+        <Link href='https://www.facebook.com/anokhipehel'><a className="text-teal-600">
         <FaFacebookF className='text-lg md:text-xl'/>
-        </a>
+        </a></Link>
         <a className="ml-3 text-teal-600">
         <BsTwitter className='text-lg md:text-xl'/>
         </a>
+        <Link href='https://www.instagram.com/anokhipehel/'>
         <a className="ml-3 text-teal-600">
         <BsInstagram className='text-lg md:text-xl'/>
         </a>
-        <a className="ml-3 text-teal-600">
+        </Link>
+        <Link href='https://www.linkedin.com/company/anokhi-pehel/mycompany/'><a className="ml-3 text-teal-600">
         <FaLinkedinIn className='text-lg md:text-xl'/>
-        </a>
+        </a></Link>
       </span>
     </div>
   </div>

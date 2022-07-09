@@ -4,7 +4,9 @@ import Link from 'next/link';
 import { client } from '../../lib/sanityClient';
 import Masonry from "react-masonry-css";
 import { BsArrowLeft } from 'react-icons/bs';
-
+const breakPointObj = {
+  default: 1,
+}
 
 const blogDetails = ({post}) => {
   
@@ -26,9 +28,13 @@ const blogDetails = ({post}) => {
                 </a>
           <p className='leading-relaxed text-lg items-baseline ml-1 mb-3'><FaCalendarAlt className='text-3xl mr-2 items-baseline inline-block'/> Created on {post[0].publishedAt}</p>
         </div>
-          <div className=" h-64 overflow-hidden">
-            <Masonry><img src={post[0].mainImage.asset.url} alt="content" className="object-cover object-center rounded-lg h-full w-full" /></Masonry>
-          </div>
+        <Masonry
+        className="px-1 md:px-2 pt-1 md:pt-3 flex gap-2"
+        columnClassName="bg-clip-padding"
+        breakpointCols={breakPointObj}>
+            <img src={post[0].mainImage.asset.url} alt="content" className="object-fill shadow-xl object-center rounded-lg h-full w-full" />
+          
+          </Masonry>
           <div className="flex flex-col sm:flex-row mt-10">
             <div className="  sm:py-8  border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
             <h2 className="text-lg sm:text-2xl md:text-3xl  text-gray-900 font-medium title-font mb-2">{post[0].title}</h2>

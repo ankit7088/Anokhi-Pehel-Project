@@ -193,7 +193,7 @@ export default function Home(props) {
     additionalTransfrom={0}
     arrows
     autoPlay
-    autoPlaySpeed={1000}
+    autoPlaySpeed={3000}
     centerMode={false}
     className=""
     containerClass="container-with-dots"

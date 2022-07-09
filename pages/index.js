@@ -190,22 +190,21 @@ export default function Home(props) {
   </div>
   
     <Carousel
-    
     additionalTransfrom={0}
     arrows
     autoPlay
-    autoPlaySpeed={5000}
+    autoPlaySpeed={1000}
     centerMode={false}
     className=""
-    containerclass="container-with-dots"
-    dotListclass=""
+    containerClass="container-with-dots"
+    dotListClass=""
     draggable
     focusOnSelect={false}
     infinite
-    itemclass=""
+    itemClass=""
     keyBoardControl
     minimumTouchDrag={80}
-    pauseOnHover={false}
+    pauseOnHover
     renderArrowsWhenDisabled={false}
     renderButtonGroupOutside={false}
     renderDotsOutside={false}
@@ -239,10 +238,11 @@ export default function Home(props) {
     rewindWithAnimation={false}
     rtl={false}
     shouldResetAutoplay
-    showDots={true}
-    sliderclass=""
-    slidesToSlide={2}
+    showDots={false}
+    sliderClass=""
+    slidesToSlide={1}
     swipeable
+  
 >
 
 {props.testimonial.map((item)=>{

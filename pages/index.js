@@ -204,7 +204,7 @@ export default function Home(props) {
     itemClass=""
     keyBoardControl
     minimumTouchDrag={80}
-    pauseOnHover
+    pauseOnHover={false}
     renderArrowsWhenDisabled={false}
     renderButtonGroupOutside={false}
     renderDotsOutside={false}
@@ -238,7 +238,7 @@ export default function Home(props) {
     rewindWithAnimation={false}
     rtl={false}
     shouldResetAutoplay
-    showDots={false}
+    showDots={true}
     sliderClass=""
     slidesToSlide={1}
     swipeable

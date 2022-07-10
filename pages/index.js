@@ -69,7 +69,7 @@ export default function Home(props) {
     ></iframe>
     </div>
     <div className='w-full lg:w-1/2 pl-4 md:pl-10 content-start pt-12 space-y-4'>
-        <h2 className="pb-1 italic text-4xl md:text-5xl font-bold" >Anokhi Pehel</h2>
+        <h2 className="pb-1 italic text-4xl md:text-5xl font-bold" >Anokha Siddharth</h2>
         <div className="h-1 w-28 bg-teal-600 rounded"></div>
         <p className=' xl:pb-20 text-left text-lg tracking-normal leading-relaxed'>Anokhi Pehel is an initiative taken by the students of MNNIT to help the children of the economically weaker sections of the society by providing them an education in the best possible way. Under this initiative, we teach students from preparatory classes to 12th level teaching them various subjects.Not only do we develop academic skills of the students but also other extra curricular activities such as painting, dancing, sketching, etc. Started with a few teachers and just 20 students, today we have a team of about 60 teachers shaping the life of more than 250 students. Our students have shown great performance in various fields.</p>
 

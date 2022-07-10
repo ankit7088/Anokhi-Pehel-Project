@@ -121,7 +121,7 @@ const Auth = () => {
 
     const googleSignup = () => {
         localStorage.setItem('authType', 'signup');
-        signIn('google', 'http://localhost:3000/authentication');
+        signIn('google', 'https://anokhi-pehel.vercel.app/');
     };
 
     return (
@@ -164,7 +164,7 @@ const Auth = () => {
                                         Sign up
                                     </button>}
                                     {loading && <button
-                                        className="font-semibold mt-6 rounded border-slate-700 bg-teal-500 hover:bg-teal-600 p-2 text-xl text-stone-100 w-full"></button>}
+                                        className="font-semibold mt-6 rounded border-slate-700 bg-teal-500 hover:bg-teal-600 p-2 text-xl text-stone-100 w-full loading"></button>}
 
                                 </form>
                                 <div

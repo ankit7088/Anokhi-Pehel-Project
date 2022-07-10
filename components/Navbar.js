@@ -65,7 +65,7 @@ import { AiFillCaretDown } from "react-icons/ai";
                   if (data.successMessage.length>0)
                   {
                     setUserData(data.userData);
-                    setChange(true);
+                    // setChange(true);
                     // console.log(userData);
                       toast.success(data.successMessage,{
                           duration: 4000,
@@ -121,7 +121,7 @@ import { AiFillCaretDown } from "react-icons/ai";
           // console.log(userData);
         });
     } 
-}, [session,router]);
+}, [session]);
 
   const handleClick = () => {
     setActive(!active);

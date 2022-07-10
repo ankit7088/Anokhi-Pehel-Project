@@ -32,6 +32,7 @@ export default NextAuth({
           password,
           _id,
           email,
+          image,
         }`;
           const userData = await client.fetch(query);
           if (userData.length===0) {
@@ -48,7 +49,7 @@ export default NextAuth({
           id:userData[0]._id,
           name: userData[0].userName,
           email: userData[0].email,
-          // image: userData[0].image
+          image: userData[0].image
         };
         
       }

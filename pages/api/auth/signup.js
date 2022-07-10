@@ -52,7 +52,7 @@ async function handler(req, res) {
         image:'https://png.pngtree.com/png-clipart/20210129/ourmid/pngtree-man-default-avatar-png-image_2813122.jpg'
       };
       const response = await client.create(doc);
-      res.status(200).json({userData:response ,successMessage: "Account created successfully" });
+      res.status(200).json({successMessage: "Account created successfully" });
      }
   }
 }

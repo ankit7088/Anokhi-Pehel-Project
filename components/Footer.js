@@ -37,7 +37,7 @@ const Footer = () => {
         </nav>
       </div>
       <div className="lg:w-1/3 w-full px-4 py-2">
-        <h2 className="title-font font-medium text-gray-900 tracking-widest text-xl mb-2">Anokhi Phele Club</h2>
+        <h2 className="title-font font-medium text-gray-900 tracking-widest text-xl mb-2">Anokhi Pehel Club</h2>
         <div className="h-1 w-20 bg-teal-600 rounded lg:visible invisible"></div>
         <nav className="list-none mb-10 mt-3">
            <li className="text-gray-600 hover:text-gray-800">Near Academic Building</li>

@@ -164,7 +164,7 @@ import { AiFillCaretDown } from "react-icons/ai";
   return (
     <>
     <Toaster/>
-      <nav className='shadow-lg sticky top-0 z-50 w-full flex items-center flex-wrap bg-white p-0'>
+      <nav className='shadow-lg fixed top-0 z-50 w-full flex items-center flex-wrap bg-white p-0 '>
         <Link href='/'>
           <a className='inline-flex items-center p-0 xl:ml-2  '>
             <Image alt='logo' src="/imagelogo.png" width={150} height={110}></Image>
@@ -209,9 +209,9 @@ import { AiFillCaretDown } from "react-icons/ai";
         <div
           className={`${
             active ? '' : 'hidden'
-          }   w-full xl:inline-flex xl:flex-grow xl:w-auto`}
+          }  w-full xl:inline-flex xl:flex-grow xl:w-auto`}
         >
-          <div className='xl:inline-flex xl:flex-row xl:ml-auto xl:w-auto w-full xl:items-center items-start flex flex-col xl:h-auto'>
+          <div className='min-h-screen xl:min-h-0 text-center sm:text-left px-4 xl:px-0 xl:inline-flex xl:flex-row xl:ml-auto xl:w-auto w-full xl:items-center items-start flex flex-col xl:h-auto'>
             <ul className='xl:inline-flex xl:flex-row xl:ml-auto xl:w-auto w-full xl:items-center items-start flex flex-col xl:h-auto'>
           
                   <li className='xl:text-lg xl:inline-flex xl:w-auto w-full px-2 xl:px-3 py-2 rounded text-slate-800 font-semibold items-center justify-center hover:text-teal-600 '><Link href='/'>

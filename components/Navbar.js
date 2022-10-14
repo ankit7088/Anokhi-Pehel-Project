@@ -246,9 +246,9 @@ import { AiFillCaretDown } from "react-icons/ai";
                     
                     {dropdown3 && <div className='invisible xl:visible bg-white text-slate-800  font-normal border border-slate-500 absolute top-0 right-0 translate-y-20 -translate-x-[31rem] rounded '>
                       <ul className='px-4 py-2 '>
-                        <Link href='/faculty'><li className='hover:text-teal-600'><a onClick={()=>{setDropdown3(!dropdown2)}}>Faculty</a></li></Link>
-                        <Link href='/alumni'><li className='hover:text-teal-600'><a onClick={()=>{setDropdown3(!dropdown2)}}>Alumni</a></li></Link>
-                        <Link href='/coordinator'><li className='hover:text-teal-600'><a onClick={()=>{setDropdown3(!dropdown2)}}>Coordinators</a></li></Link>
+                        <Link href='/faculty'><li className='hover:text-teal-600'><a onClick={()=>{setDropdown3(!dropdown3)}}>Faculty</a></li></Link>
+                        <Link href='/alumni'><li className='hover:text-teal-600'><a onClick={()=>{setDropdown3(!dropdown3)}}>Alumni</a></li></Link>
+                        <Link href='/coordinator'><li className='hover:text-teal-600'><a onClick={()=>{setDropdown3(!dropdown3)}}>Coordinators</a></li></Link>
                       </ul>
                   </div>}
                     {active && dropdown3 && <div className='xl:hidden'>

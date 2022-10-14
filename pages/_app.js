@@ -12,7 +12,9 @@ export default function App({
     <SessionProvider session={session}>
     <Navbar/>
     <NextNProgress/>
+    <div className='pt-28'>
     <Component {...pageProps} />
+    </div>
     <Footer/>
     </SessionProvider>
   )
